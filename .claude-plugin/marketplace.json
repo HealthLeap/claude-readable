@@ -1,0 +1,15 @@
+{
+  "name": "healthleap",
+  "description": "HealthLeap's Claude Code setup for concise, readable output.",
+  "owner": {
+    "name": "HealthLeap",
+    "url": "https://www.healthleap.ai/"
+  },
+  "plugins": [
+    {
+      "name": "claude-readable",
+      "source": "./",
+      "description": "Concise, readable Claude Code output with writing instructions and a per-prompt reminder."
+    }
+  ]
+}

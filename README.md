@@ -1,41 +1,21 @@
 # Claude Code setup
 
-## 1. Add the output style
+Paste into your terminal:
 
 ```sh
-git clone https://github.com/HealthLeap/claude-readable.git
-cd claude-readable
-mkdir -p ~/.claude/output-styles
-cp -i output-styles/simple-and-visual.md ~/.claude/output-styles/
+claude plugin marketplace add HealthLeap/claude-readable && claude plugin install claude-readable@healthleap
 ```
 
-## 2. Select it
+Start a fresh Claude Code session. The output style, writing instructions, and per-prompt reminder are active automatically across your projects. The plugin uses its output style while enabled.
 
-Add this key to `~/.claude/settings.json`, keeping your existing settings:
-
-```json
-{
-  "outputStyle": "simple-and-visual"
-}
-```
-
-## Optional: add a reminder hook
-
-Merge [style-reminder-hook.json](settings/style-reminder-hook.json) into `~/.claude/settings.json`. If `hooks.UserPromptSubmit` already exists, append the reminder to its array. Keep existing hooks.
-
-## Optional: use the writing rule
+## Uninstall
 
 ```sh
-mkdir -p ~/.claude/rules
-cp -i rules/readable-artifacts.md ~/.claude/rules/
+claude plugin uninstall claude-readable@healthleap
 ```
 
-## 3. Start a fresh session
-
-Open a new Claude Code session to apply the settings.
-
-To customize the style, edit `~/.claude/output-styles/simple-and-visual.md`, then start another session.
+Start a fresh session to apply the change.
 
 ---
 
-[HealthLeap](https://www.healthleap.ai/) builds AI for hospitals. [We're hiring engineers](https://careers.healthleap.ai/).
+[HealthLeap](https://www.linkedin.com/company/healthleapinc) builds AI that helps hospital teams identify and treat patients missed by manual screening. [We're hiring engineers](https://careers.healthleap.ai/).

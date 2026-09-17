@@ -2,6 +2,7 @@
 name: simple-and-visual
 description: Answer-first replies with plain language and explicit length ceilings.
 keep-coding-instructions: true
+force-for-plugin: true
 ---
 
 # Simple and Visual

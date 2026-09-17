@@ -1,0 +1,13 @@
+{
+  "name": "claude-readable",
+  "version": "1.0.0",
+  "description": "Answer-first replies, readable writing, and a style reminder on every prompt.",
+  "author": {
+    "name": "HealthLeap",
+    "url": "https://www.healthleap.ai/"
+  },
+  "homepage": "https://github.com/HealthLeap/claude-readable#readme",
+  "repository": "https://github.com/HealthLeap/claude-readable",
+  "license": "MIT",
+  "hooks": "./hooks/claude-readable-hooks.json"
+}

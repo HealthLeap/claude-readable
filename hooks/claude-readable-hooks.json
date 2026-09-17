@@ -1,5 +1,16 @@
 {
   "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat \"${CLAUDE_PLUGIN_ROOT}/rules/readable-artifacts.md\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
     "UserPromptSubmit": [
       {
         "hooks": [
