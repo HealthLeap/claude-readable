@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "printf '%s\\n' 'Apply the simple-and-visual output style to this response. Its length ceilings are not targets; preserve required detail and requested depth.'",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
