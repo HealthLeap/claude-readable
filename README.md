@@ -18,4 +18,4 @@ Start a fresh session to apply the change.
 
 ---
 
-[HealthLeap](https://www.linkedin.com/company/healthleapinc) builds AI that helps hospital teams identify and treat patients missed by manual screening. [We're hiring engineers](https://careers.healthleap.ai/).
+[HealthLeap](https://www.linkedin.com/company/healthleapinc) builds AI that helps hospital teams identify and treat patients missed by manual screening. [We're hiring engineers. Come build AI that saves lives.](https://careers.healthleap.ai/)
